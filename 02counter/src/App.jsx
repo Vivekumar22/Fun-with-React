@@ -7,6 +7,11 @@ function App() {
    let [counter,setcounter]= useState(10)
    const addValue = () =>{
     if(counter<=19)
+    // this four statemnt is wor when you want to increment by 4 from one by one it is taking callback to setCounter method internally
+    // setcounter(prevCounter => prevCounter + 1)
+    // setcounter(prevCounter => prevCounter + 1)
+    // setcounter(prevCounter => prevCounter + 1)
+    // setcounter(prevCounter => prevCounter + 1)
     setcounter(counter+1);
    }
    let removeValue = () =>{
