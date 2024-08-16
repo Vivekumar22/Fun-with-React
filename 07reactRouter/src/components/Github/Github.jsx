@@ -32,3 +32,7 @@ export const githubloaderinfo =  async() => {
     const response = await fetch('https://api.github.com/users/hiteshchoudhary')
     return response.json()
 }
+
+// in 2way at first githubloaderinfo after called by in main.jsx that get data and forward
+// to useLoaderData then after go to const data = useLoaderData() and then go to return data
+// and reflect in ui

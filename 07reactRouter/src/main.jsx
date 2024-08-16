@@ -31,7 +31,7 @@ import App from './App.jsx'
 // ])
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path='/' element={<App />}>
+  <Route path='/' element={<App />}> 
     <Route path="" element={<Home />}/>
     <Route path="about" element={<About />}/>
     <Route path="contact" element={<Contact />}/>
@@ -49,3 +49,5 @@ createRoot(document.getElementById('root')).render(
     <RouterProvider router={router}/>
   </StrictMode>,
 )
+
+// in line 13 we do wrapp after "/" use all

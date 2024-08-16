@@ -20,3 +20,6 @@ export default App
 
 
 // // store like userContextProvider toh ban gya pr uska access yaha denge taki use ho line 11
+// it act as outlet "UserContextProvider"
+
+// but the problem is like when we run this program automatically profile function ality work
